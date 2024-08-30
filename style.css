@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            <img src="logo.png" alt="Brand Logo">
+        </div>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="login-btn">Log In</button>
+                <button class="signup-btn">Register</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="welcome-section">
+        <h1>Get Your Favorite Food Delivered Fast</h1>
+        <div class="location-search">
+            <input type="text" placeholder="Enter your address" id="location-input">
+            <button onclick="locationSearch()">Find Food</button>
+        </div>
+    </section>
+
+    <section class="food-categories">
+        <h2>Browse by Category</h2>
+        <div class="category-wrapper">
+            <div class="category-card"><img src="biryani.jpg" alt="Biryani"><p>Biryani</p></div>
+            <div class="category-card"><img src="pizza.jpg" alt="Pizza"><p>Pizza</p></div>
+            <div class="category-card"><img src="desserts.jpg" alt="Desserts"><p>Desserts</p></div>
+            <!-- Additional categories can be added here -->
+        </div>
+    </section>
+
+    <section class="top-restaurants">
+        <h2>Top Restaurants</h2>
+        <div class="restaurant-wrapper">
+            <div class="restaurant-card"><img src="restaurant1.jpg" alt="Restaurant 1"><p>Restaurant 1</p></div>
+            <div class="restaurant-card"><img src="restaurant2.jpg" alt="Restaurant 2"><p>Restaurant 2</p></div>
+            <div class="restaurant-card"><img src="restaurant3.jpg" alt="Restaurant 3"><p>Restaurant 3</p></div>
+            <!-- Additional restaurants can be added here -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-nav">
+            <a href="#">Help</a>
+            <a href="#">FAQ</a>
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+        </div>
+        <div class="social-links">
+            <a href="#"><img src="fb.png" alt="Facebook"></a>
+            <a href="#"><img src="tw.png" alt="Twitter"></a>
+            <a href="#"><img src="ig.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
